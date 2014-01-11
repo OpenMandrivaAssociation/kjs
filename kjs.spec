@@ -13,6 +13,7 @@ URL: http://kde.org/
 License: LGPL v2.1
 Group: System/Libraries
 BuildRequires: cmake
+BuildRequires: extra-cmake-modules5
 Requires: %{libname} = %{EVRD}
 Requires: %{apilibname} = %{EVRD}
 
