@@ -14,6 +14,8 @@ License: LGPL v2.1
 Group: System/Libraries
 BuildRequires: cmake
 BuildRequires: extra-cmake-modules5
+BuildRequires: pkgconfig(Qt5Core)
+BuildRequires: pkgconfig(libpcre)
 Requires: %{libname} = %{EVRD}
 Requires: %{apilibname} = %{EVRD}
 
