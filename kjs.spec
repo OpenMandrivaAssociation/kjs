@@ -1,6 +1,5 @@
 %define major 5
 %define libname %mklibname KF5JS %{major}
-%define apilibname %mklibname KF5JSApi %{major}
 %define devname %mklibname KF5JS -d
 %define debug_package %{nil}
 
@@ -19,7 +18,6 @@ BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5Test)
 BuildRequires: pkgconfig(libpcre)
 Requires: %{libname} = %{EVRD}
-Requires: %{apilibname} = %{EVRD}
 
 %description
 The KDE Frameworks 5 JavaScript library.
@@ -30,13 +28,6 @@ Group: System/Libraries
 
 %description -n %{libname}
 The KDE Frameworks 5 JavaScript library.
-
-%package -n %{apilibname}
-Summary: KDE Frameworks 5 JavaScript API library
-Group: System/Libraries
-
-%description -n %{apilibname}
-KDE Frameworks 5 JavaScript API library
 
 %package -n %{devname}
 Summary: Development files for %{name}
