@@ -16,6 +16,7 @@ BuildRequires: qmake5
 BuildRequires: cmake
 BuildRequires: extra-cmake-modules5
 BuildRequires: pkgconfig(Qt5Core)
+BuildRequires: pkgconfig(Qt5Test)
 BuildRequires: pkgconfig(libpcre)
 Requires: %{libname} = %{EVRD}
 Requires: %{apilibname} = %{EVRD}
