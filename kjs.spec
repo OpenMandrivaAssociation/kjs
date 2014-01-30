@@ -12,6 +12,7 @@ Summary: The KDE Frameworks 5 JavaScript library
 URL: http://kde.org/
 License: LGPL v2.1
 Group: System/Libraries
+BuildRequires: qmake5
 BuildRequires: cmake
 BuildRequires: extra-cmake-modules5
 BuildRequires: pkgconfig(Qt5Core)
