@@ -7,6 +7,7 @@ Name: kjs
 Version: 4.96.0
 Release: 1
 Source0: http://ftp5.gwdg.de/pub/linux/kde/unstable/frameworks/4.95.0/%{name}-%{version}.tar.xz
+Patch0: kjs-4.96.0-fix-create_hash_table-location.patch
 Summary: The KDE Frameworks 5 JavaScript library
 URL: http://kde.org/
 License: LGPL v2.1
@@ -33,12 +34,14 @@ The KDE Frameworks 5 JavaScript library.
 Summary: Development files for %{name}
 Group: Development/C
 Requires: %{libname} = %{EVRD}
+Requires: %{name} = %{EVRD}
 
 %description -n %{devname}
 Development files (Headers etc.) for %{name}.
 
 %prep
 %setup -q
+%apply_patches
 %cmake
 
 %build
