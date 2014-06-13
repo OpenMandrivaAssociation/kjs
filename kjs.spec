@@ -5,7 +5,7 @@
 
 Name: kjs
 Version: 4.99.0
-Release: 1
+Release: 2
 Source0: http://ftp5.gwdg.de/pub/linux/kde/unstable/frameworks/%{version}/portingAids/%{name}-%{version}.tar.xz
 Patch0: kjs-4.96.0-fix-create_hash_table-location.patch
 Summary: The KDE Frameworks 5 JavaScript library
