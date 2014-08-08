@@ -4,8 +4,8 @@
 %define debug_package %{nil}
 
 Name: kjs
-Version: 5.0.0
-Release: 2
+Version: 5.1.0
+Release: 1
 Source0: http://ftp5.gwdg.de/pub/linux/kde/stable/frameworks/%{version}/portingAids/%{name}-%{version}.tar.xz
 Patch0: kjs-4.96.0-fix-create_hash_table-location.patch
 Summary: The KDE Frameworks 5 JavaScript library
