@@ -55,6 +55,7 @@ DESTDIR="%{buildroot}" ninja install -C build
 %files
 %{_bindir}/*
 %{_datadir}/kf5/kjs
+%{_mandir}/man1/kjs5.1.*
 
 %files -n %{libname}
 %{_libdir}/*.so.%{major}
