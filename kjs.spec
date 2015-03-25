@@ -14,6 +14,7 @@ License: LGPL v2.1
 Group: System/Libraries
 BuildRequires: qmake5
 BuildRequires: cmake
+BuildRequires: cmake(KF5DocTools)
 BuildRequires: ninja
 BuildRequires: extra-cmake-modules5
 BuildRequires: pkgconfig(Qt5Core)
