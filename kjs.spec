@@ -5,7 +5,7 @@
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 
 Name: kjs
-Version: 5.25.0
+Version: 5.26.0
 Release: 1
 Source0: http://download.kde.org/%{stable}/frameworks/%(echo %{version} |cut -d. -f1-2)/portingAids/%{name}-%{version}.tar.xz
 Summary: The KDE Frameworks 5 JavaScript library
@@ -49,7 +49,9 @@ Development files (Headers etc.) for %{name}.
 %install
 %ninja_install -C build
 
-%files
+%find_lang kjs5 --with-man
+
+%files -f kjs5.lang
 %{_bindir}/*
 %{_datadir}/kf5/kjs
 %{_mandir}/man1/kjs5.1.*

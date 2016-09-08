@@ -1,4 +1,2 @@
-removed_sources:
-  kjs-5.13.0.tar.xz: 85695478d4929c3dba1ab3a118ad2955b8f14148
 sources:
-  kjs-5.25.0.tar.xz: d7b4fbbd18c47d88b9c2179bcccc737cb0ce05a2
+  kjs-5.26.0.tar.xz: 49078065e34d3874d93af76342951e5ce9bc1445
