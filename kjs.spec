@@ -6,7 +6,7 @@
 
 Name: kjs
 Version: 5.68.0
-Release: 1
+Release: 2
 Source0: http://download.kde.org/%{stable}/frameworks/%(echo %{version} |cut -d. -f1-2)/portingAids/%{name}-%{version}.tar.xz
 Summary: The KDE Frameworks 5 JavaScript library
 URL: http://kde.org/
